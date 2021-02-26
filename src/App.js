@@ -32,47 +32,51 @@ function App() {
             </li> */}
             <li>
               <Link>
-                <a className="underline hover:text-gray-700">portfolio</a>
+                <a className="un hover:text-gray-700">portfolio</a>
               </Link>
             </li>
             <li>
               <Link>
-                <a className="underline hover:text-gray-700">design</a>
+                <a className="un hover:text-gray-700">design</a>
               </Link>
             </li>
             <li>
               <Link>
-                <a className="underline hover:text-gray-700">about </a>
+                <a className="un hover:text-gray-700">about </a>
               </Link>
             </li>
             <li>
               <Link>
-                <a className="underline hover:text-gray-700">contact</a>
+                <a className="un hover:text-gray-700">contact</a>
               </Link>
             </li>
             <li>
               <a
-                className="underline hover:text-gray-700"
-                target="_blank"
-                href="https://docs.google.com/document/d/1udvxHJgT-9CNnbFC8oRnWGlq5lKmZYiIpdh1IQ62PRI/edit?usp=sharing"
-              >
-                resume
-              </a>
-            </li>
-            <li>
-              <a
-                className="mr-4 hover:text-gray-700"
+                className="mr-4 un hover:text-gray-700"
                 target="_blank"
                 href="https://alyssa-e-easterly.medium.com/"
               >
                 blog
               </a>
             </li>
+            <li>
+              <button
+                href="/create-love"
+                className="px-5 py-4 mx-4 mt-4 text-sm font-medium text-white uppercase bg-red-300 rounded hover:bg-yellow-200 hover:text-black focus:outline-none focus:bg-indigo-500"
+              >
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/document/d/1udvxHJgT-9CNnbFC8oRnWGlq5lKmZYiIpdh1IQ62PRI/edit?usp=sharing"
+                >
+                  resume
+                </a>
+              </button>
+            </li>
           </ul>
         </div>
         <style jsx>{`
           nav {
-            box-shadow: 0px 2px 6px rgba(232, 128, 129, 0.15);
+            box-shadow: 0px 2px 6px rgba(236, 224, 115, 0.62);
           }
         `}</style>
       </nav>
@@ -97,14 +101,9 @@ function App() {
                       href="#messages"
                       className="px-5 py-4 mx-4 mt-4 text-sm font-medium text-white uppercase bg-red-300 rounded hover:bg-blue-200 focus:outline-none focus:bg-indigo-500"
                     >
-                      Portfolio
+                      CONTACT ME
                     </button>
-                    <button
-                      href="/create-love"
-                      className="px-5 py-4 mx-4 mt-4 text-sm font-medium text-white uppercase bg-red-300 rounded hover:bg-blue-200 focus:outline-none focus:bg-indigo-500"
-                    >
-                      Design
-                    </button>
+                   
                   </div>
                 </div>
               </div>
@@ -128,6 +127,9 @@ function App() {
           </div>
         </header>
       </main>
+      <section id="portfolio" className="grid gap-10 md:grid-cols-3 layout">
+        <h1>My Projects</h1>
+      </section>
     </div>
   );
 }
