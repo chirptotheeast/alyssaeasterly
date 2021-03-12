@@ -63,12 +63,6 @@ export default class Projects extends Component {
                     {/* <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A --> */}
                   </div>
 
-                  {/* <!-- Pin to top right corner --> */}
-                  <div className="absolute top-0 right-0 h-12 p-4 w-18">
-                    <button className="js-change-theme focus:outline-none">
-                      🌙
-                    </button>
-                  </div>
                 </div>
 
                 <div className="flex flex-wrap items-center h-auto max-w-4xl mx-auto my-32 lg:h-screen lg:my-0">
