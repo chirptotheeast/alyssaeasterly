@@ -39,13 +39,12 @@ export default class Projects extends Component {
                         PostgreSQL
                       </p>
                       <p className="pt-8 text-sm">
-                        Totally optional short description about yourself, what
-                        you do and so on.
+                        Family Entertainment App
                       </p>
 
                       <div className="pt-12 pb-8">
                         <button className="px-4 py-2 font-bold text-white bg-green-700 rounded-full hover:bg-green-900">
-                          Get In Touch
+                          Demo
                         </button>
                       </div>
 
@@ -76,7 +75,7 @@ export default class Projects extends Component {
                       <div className="block w-48 h-48 mx-auto -mt-16 bg-center bg-cover rounded-full shadow-xl lg:hidden"></div>
 
                       <h1 className="pt-8 text-3xl font-bold lg:pt-0">
-                        The Playground
+                        Songlibs
                       </h1>
                       <div className="w-4/5 pt-3 mx-auto border-b-2 border-red-400 opacity-25 lg:mx-0"></div>
                       <p className="flex items-center justify-center pt-4 text-base font-bold lg:justify-start">
@@ -87,17 +86,16 @@ export default class Projects extends Component {
                         >
                           <path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
                         </svg>{" "}
-                        React, Ruby on Rails, Javascript, Tailwind.CSS,
+                        React, Ruby on Rails, Javascript,
                         PostgreSQL
                       </p>
                       <p className="pt-8 text-sm">
-                        Totally optional short description about yourself, what
-                        you do and so on.
+                        Songwriting Game App
                       </p>
 
                       <div className="pt-12 pb-8">
                         <button className="px-4 py-2 font-bold text-white bg-green-700 rounded-full hover:bg-green-900">
-                          Get In Touch
+                          Demo
                         </button>
                       </div>
 
@@ -113,13 +111,6 @@ export default class Projects extends Component {
                       className="hidden rounded-none shadow-2xl lg:rounded-lg lg:block"
                     />
                     {/* <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A --> */}
-                  </div>
-
-                  {/* <!-- Pin to top right corner --> */}
-                  <div className="absolute top-0 right-0 h-12 p-4 w-18">
-                    <button className="js-change-theme focus:outline-none">
-                      🌙
-                    </button>
                   </div>
                 </div>
               </div>
