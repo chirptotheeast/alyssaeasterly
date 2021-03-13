@@ -9,6 +9,7 @@ import Project from "./components/Projects.js"
 import About from './components/About.js'
 import Contact from './components/Contact.js'
 import Home from './components/Home.js'
+import Design from "./components/Design.js"
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
                 />
               </a>
             </Link>
-            
+
             <ul className="flex items-center justify-between space-x-8">
               {/* <li>
               <Link href="/create-love">
@@ -41,11 +42,9 @@ function App() {
                   portfolio
                 </a>
               </li>
-              {/* <li>
-                <Link>
-                  <a className="un hover:text-gray-700">design</a>
-                </Link>
-              </li> */}
+              <li>
+                  <a href="#design" className="un hover:text-gray-700">design</a>
+              </li>
               <li>
                 <a href="#about" className="un hover:text-gray-700">
                   about{" "}
@@ -92,6 +91,9 @@ function App() {
         <div id="projects">
           <Project />
         </div>
+        <div id="design">
+          <Design />
+        </div>
         <div id="about">
           <About />
         </div>
@@ -99,7 +101,8 @@ function App() {
           <Contact />
         </div>
       </div>
-      <footer className="sticky bottom-0 bg-white"></footer>
+      <footer className="sticky bottom-0 bg-white">
+      </footer>
     </div>
   );
 }

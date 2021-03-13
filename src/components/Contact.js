@@ -7,7 +7,10 @@ export default class Contact extends Component {
           <div>
             <div className="flex flex-col items-center">
               <div className="">
-                <img src={contact} className="w-80" />
+                <div className="flex flex-col">
+                  <img src={contact} className="w-80" />
+                  <a href="mailto: alyssa.e.easterly@gmail.com">Send Email</a>
+                </div>
                 <div className="flex flex-wrap items-center ">
                   <a
                     className="link"
