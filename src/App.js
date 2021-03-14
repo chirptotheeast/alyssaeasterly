@@ -47,7 +47,7 @@ function App() {
               </li>
               <li>
                 <a href="#about" className="un hover:text-gray-700">
-                  about{" "}
+                  about
                 </a>
               </li>
               <li>
