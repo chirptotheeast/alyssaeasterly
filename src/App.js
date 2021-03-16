@@ -57,7 +57,7 @@ function App() {
               </li>
               <li>
                 <a
-                  className="mr-4 un hover:text-gray-700"
+                  className=" un hover:text-gray-700"
                   target="_blank"
                   href="https://alyssa-e-easterly.medium.com/"
                 >
@@ -65,10 +65,8 @@ function App() {
                 </a>
               </li>
               <li>
-                {" "}
                 <button
-                  href="/create-love"
-                  className="px-5 py-4 mx-4 mt-4 text-sm font-medium text-white uppercase bg-red-300 rounded hover:bg-yellow-200 hover:text-black focus:outline-none focus:bg-indigo-500"
+                  className="px-5 py-4 mr-6 text-sm font-medium text-white uppercase bg-red-300 rounded hover:bg-yellow-200 hover:text-black focus:outline-none focus:bg-indigo-500"
                 >
                   <a
                     target="_blank"
