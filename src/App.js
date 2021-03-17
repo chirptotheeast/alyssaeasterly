@@ -99,8 +99,8 @@ function App() {
       </div>
 
       <footer id="footer" className="bg-yellow-100 ">
-        <div className="flex-row layout">
-          {/* <div className="flex flex-row "> */}
+        <div className="layout">
+          <div className="flex flex-row ">
             {/* <div className="flex "> */}
               <a className="link" href="#" data-tippy-content="@github_handle">
                 <svg
@@ -139,7 +139,7 @@ function App() {
                 </svg>
               </a>
             {/* </div> */}
-          {/* </div> */}
+          </div>
         </div>
       </footer>
     </div>
