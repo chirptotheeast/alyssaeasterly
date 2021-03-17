@@ -67,7 +67,7 @@ function App() {
                 <button className="px-5 py-4 mr-6 text-sm font-medium text-black uppercase bg-yellow-200 rounded shadow-sm opacity-70 hover:bg-yellow-300 hover:text-black focus:outline-none focus:bg-blue-200">
                   <a
                     target="_blank"
-                    href="https://docs.google.com/document/d/1udvxHJgT-9CNnbFC8oRnWGlq5lKmZYiIpdh1IQ62PRI/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1FN6vL5qWq7JzVbRO_cceM7cotslx8QXVWxJx--G8PR8/edit?usp=sharing"
                   >
                     resume
                   </a>
