@@ -6,6 +6,13 @@
   max-width: 68.75rem;
 }
 
+.footer .layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .un {
   display: inline-block;
 
