@@ -12,7 +12,7 @@ export default class About extends Component {
                   <div className="container relative flex px-6 py-16 mx-auto">
                     <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
                       <img src={about} className="w-72" />
-                      <p className="mt-5 mb-3 text-sm text-gray-700 sm:text-base dark:text-white">
+                      <p className="mt-5 mb-5 text-sm text-gray-700 sm:text-base dark:text-white">
                         I am a full-stack developer originally from Fairfax, VA. Coming from the music and hospitality industry, I bring a unique crossroads of skills sets, merging my passion for learning new skills and technology, mixed with my expertise in customer relationship and team-driven collaboration.
                       </p>
                       <h3 className="flex flex-col text-6xl font-black leading-none text-gray-800 uppercase font-bebas-neue sm:text-8xl dark:text-white">

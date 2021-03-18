@@ -9,7 +9,7 @@ export default class Projects extends Component {
     render() {
         return (
           <div>
-            <section id="projects " >
+            <section id="projects ">
               <div className="layout">
                 <div className="p-1 bg-yellow-200 md:mx-auto md:container opacity-70"></div>
                 <div>
@@ -109,7 +109,7 @@ export default class Projects extends Component {
                       {/* <!-- Use https://simpleicons.org/ to find the svg for your preferred product -->  */}
                     </div>
                   </div>
-
+                 
                   {/* <!--Img Col--> */}
                   <div className="w-full lg:w-2/5">
                     {/* <!-- Big profile image for side bar (desktop) --> */}
@@ -151,7 +151,9 @@ export default class Projects extends Component {
 
                       <div className="pt-12 pb-8">
                         <button className="px-4 py-2 font-bold text-white bg-green-700 rounded-full hover:bg-green-900 focus:outline-none">
-                          <a href="https://love4heroes.online/" target="_blank">Live Site</a>
+                          <a href="https://love4heroes.online/" target="_blank">
+                            Live Site
+                          </a>
                         </button>
                       </div>
 
@@ -165,10 +167,12 @@ export default class Projects extends Component {
                     <img
                       src={projectlove}
                       className="hidden rounded-none shadow-2xl lg:rounded-lg lg:block"
+                      width={500}
                     />
                   </div>
                 </div>
                 {/* </div> */}
+               
               </div>
             </section>
           </div>

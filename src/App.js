@@ -155,7 +155,7 @@ function App() {
             </a>
             {/* </div> */}
           </div>
-          <p>© Alyssa Easterly 2021</p>
+          <p className="mb-2">© Alyssa Easterly 2021</p>
         </div>
       </footer>
     </div>
