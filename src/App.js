@@ -16,10 +16,9 @@ function App() {
   return (
     <div>
       <div>
-        <nav className="sticky top-0 bg-white">
+        <nav className="sticky top-0 z-40 bg-white">
           <div className="flex items-center justify-between py-2 text-black layout">
-            <Link href="/">
-              <a className="w-16 font-bold">
+              <a className="font-bold " href="#hero">
                 <img
                   className="ml-6"
                   src={linelogo}
@@ -28,7 +27,7 @@ function App() {
                   alt="logo"
                 />
               </a>
-            </Link>
+
 
             <ul className="flex items-center justify-between space-x-8">
               {/* <li>
@@ -64,7 +63,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <button className="px-5 py-4 mr-6 text-sm font-medium text-black uppercase bg-yellow-200 rounded shadow-sm opacity-70 hover:bg-yellow-300 hover:text-black focus:outline-none focus:bg-blue-200">
+                <button className="px-5 py-2 mr-6 text-sm font-medium text-black uppercase bg-yellow-200 rounded shadow-sm opacity-70 hover:bg-yellow-300 hover:text-black focus:outline-none focus:bg-blue-200">
                   <a
                     target="_blank"
                     href="https://docs.google.com/document/d/1FN6vL5qWq7JzVbRO_cceM7cotslx8QXVWxJx--G8PR8/edit?usp=sharing"
@@ -82,7 +81,9 @@ function App() {
           `}</style>
         </nav>
 
-        <Home />
+        <div id="hero">
+          <Home />
+        </div>
         <div id="projects">
           <Project />
         </div>
