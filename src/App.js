@@ -30,19 +30,14 @@ function App() {
 
 
             <ul className="flex items-center justify-between space-x-8">
-              {/* <li>
-              <Link href="/create-love">
-                <SendLoveButton />
-              </Link>
-            </li> */}
               <li>
                 <a className="un hover:text-gray-700" href="#projects">
                   portfolio
                 </a>
               </li>
-              {/* <li>
+              <li>
                   <a href="#design" className="un hover:text-gray-700">design</a>
-              </li> */}
+              </li>
               <li>
                 <a href="#about" className="un hover:text-gray-700">
                   about
