@@ -21,12 +21,6 @@ export default class Design extends Component {
                         <img src={sidewalklogo} className=""/>
                       </div>
                     </div>
-                    {/* <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-                      <img
-                        src="/images/object/10.png"
-                        className="max-w-xs m-auto md:max-w-sm"
-                      />
-                    </div> */}
                   </div>
                 </div>
               </div>
